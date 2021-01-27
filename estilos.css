@@ -46,9 +46,15 @@ h1 {
     margin: 0;
 }
 
-
 a {
     text-decoration: none;
+}
+
+.lista-uno a {
+    color: #327e80;
+}
+
+.boton {
     color: white;
     background: #327e80;
     padding-left: 10px;
@@ -59,6 +65,7 @@ a {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
     margin: 20px;
 }
+
 
 header {
     background: url(fondo2.jpg);
@@ -186,6 +193,7 @@ h4 {
 }
 
 
+
 @media (max-width:800px) {
 
     header {
@@ -250,7 +258,8 @@ h4 {
     .lista-uno {
         flex-direction: column;
         margin: 0px;
-        
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .contenedor p {
@@ -258,12 +267,13 @@ h4 {
     }
 
     .lista-uno li {
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+        margin-top: 5px;
     }
 
     
     nav {
-        background: rgba(255, 255, 255, 0.95);
+        background: rgba(255, 255, 255, 0.85);
         width: 100%;
         position: absolute;
         display: none;
