@@ -1,2 +1,3 @@
 # tatianaweb
-Primera web, segundo intento
+Practica con HTML y CSS
+Primera prueba subida a github
